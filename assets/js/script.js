@@ -38,6 +38,8 @@ const renderTechs = (originalTech, techs) => {
 const renderProjects = (originalProjects, projects) => {
   originalProjects.querySelector('img').src = projects[0].img;
   originalProjects.querySelector('.desc-project .name-project').textContent = projects[0].title;
+  originalProjects.querySelector('.desc-project .detail-project').textContent = projects[0].detail;
+  originalProjects.querySelector('.desc-project .tech-project').textContent = projects[0].projectTech;
   originalProjects.setAttribute('data-key', projects[0].id);
 
   projects.slice(1).forEach(({ id, img, title, detail, projectTech }, index) => {
