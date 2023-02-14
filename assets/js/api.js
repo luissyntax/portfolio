@@ -6,6 +6,6 @@ const techs = [
     {id:5, img: "./assets/images/tech/reactjs.png"},
 ];
 const projects = [
-    {id:1 , img: './assets/images/projects/project.png', title: "Portifolio", detail: "Este é um projeto de portfólio criado com HTML, CSS e JavaScript, com o objetivo de exibir minhas habilidades e projetos como desenvolvedor.", projectTech: 'JavaScript'},
+    {id:1 , img: './assets/images/projects/project.png', title: "Portifolio", detail: "", projectTech: 'JavaScript'},
     {id:2 , img: './assets/images/projects/to-do list.png', title: "To-do List", detail: "", projectTech: 'JavaScript'},
 ];
