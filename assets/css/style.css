@@ -127,7 +127,6 @@ header .navfixed .conteiner .header-menu .menu:hover span:nth-of-type(2){
 .Wellcome{
     display: flex;
     flex-direction: row;
-    height: 100vh;
 }
 .Wellcome .left-area{
     width: 50%;
@@ -190,7 +189,6 @@ header .navfixed .conteiner .header-menu .menu:hover span:nth-of-type(2){
     width: 100%;
 }
 .projects{
-    height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,8 +257,8 @@ header .navfixed .conteiner .header-menu .menu:hover span:nth-of-type(2){
 /* About area */
 
 .About{
-    min-height: calc(100vh - 170px);
     color: #DCDCDC;
+    margin-top: 25px;
 }
 .About h1{
     text-transform: uppercase;
@@ -292,7 +290,7 @@ header .navfixed .conteiner .header-menu .menu:hover span:nth-of-type(2){
     color: #459f38;
 }
 .contact{
-    height: calc(100vh - 325px);
+    margin: 25px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -421,8 +419,5 @@ header .navfixed .conteiner .header-menu .menu:hover span:nth-of-type(2){
     }
     .Wellcome .right-area .balon{
         height: 400px;
-    }
-    .projects{
-        height: 55vh;
     }
 }
